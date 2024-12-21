@@ -1,0 +1,396 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: Arial;
+	font-size: 17px;
+}
+footer {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 50px;
+}
+.container {
+	width: 92%;
+	margin: auto;
+	height: 100%;
+	border: 0px;
+}
+.container2 {
+	width: 40%;
+	margin: auto;
+	height: 100%;
+	border: 0px;
+    border-radius: 10px;
+	background-color: hsla(0, 100%, 83%, 0.3);
+	box-shadow: 5px 5px hsla(7, 42%, 39%, 0.1);
+}
+.container3 {
+	width: 92%;
+	margin: auto;
+	height: 100%;
+	border: 0px;
+    background-color: hsl(353, 85%, 33%);
+	color: white;
+	text-align: center;
+}
+.barkhero {
+	background-color: hsl(353, 85%, 33%);
+	padding: 20px 0;
+	box-shadow: 10px 10px hsla(56, 42%, 39%, 0.1);
+}
+.navbar {
+	background-color: hsl(353, 85%, 33%);
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.navbar ul{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		overflow: hidden; 
+		text-align: center;
+}
+.navbar > ul il{
+	float:left;
+	position:relative;
+}
+.navbar a{
+		color: white;
+		font-size: 17px;
+		text-decoration: none;
+	    padding: 24px 53px;
+		display: block;
+		text-align: center;
+		
+}
+.navbar a:hover{
+	background-color: hsl(353, 85%, 25%);
+}
+.navbar li{ 
+		float : left;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: hsl(353, 85%, 33%);
+    min-width: 170px;
+    z-index: 1;
+}
+
+.dropdown li {
+    float: none;
+}
+
+.dropdown a {
+    padding: 12px 16px;
+}
+
+.navbar li:hover .dropdown {
+    display: block;
+}
+/* coment */ 
+.hero { 
+	background-color: white;
+	padding: 20px 0;
+	box-shadow: 10px 10px hsla(56, 42%, 39%, 0.1);
+}
+.hero h1 {
+	margin-top: 0;
+}
+.toptext {
+	background-color: hsl(353, 85%, 33%);
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	max-width: 100%;
+	font-weight: bold;
+}
+.toptext2 {
+	background-color: hsl(353, 85%, 33%);
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	width: 96.5%;
+	font-weight: bold;
+}
+.topbox {
+	background-color: hsl(353, 85%, 33%);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+}
+.midtext {
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	padding: 100px;
+}
+.endtext {
+	background-color: hsl(353, 85%, 33%);
+    text-align: center;
+	color: white;
+}
+.slider-wrapper {
+	position: relative;
+	max-width: 1200rem;
+	max-height: 400rem;
+	margin: 0 auto;
+}
+.slider {
+	display: flex;
+	aspect-ratio: 6/2;
+	overflow: hidden;
+	scroll-snap-type: x mandatory;
+}
+.slider img {
+	flex: 1 0 100%;
+    scroll-snap-align: start;
+	object-fit: cover;
+}
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translatex(-50%);
+	z-index: 1;
+}
+.slider-nav a {
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	background-color: red;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.containerbox {
+	display: flex;
+	justify-content: space-between;
+}
+.section {
+	flex: 1;
+	padding: 10px;
+	margin: 30px;
+    background-color: hsl(353, 85%, 33%);
+	text-align: center;
+	color: white;
+	padding: 20px 20px;
+	border-radius: 10px;
+	height: 100%;
+	width: 400px;
+	border: 0px;
+	box-shadow: 1.5px 5px hsla(7, 42%, 39%, 0.1);
+}
+.section1 {
+	flex: 1;
+	padding: 10px;
+	margin: 30px;
+    background-color: white;
+	text-align: center;
+	color: black;
+	padding: 20px 20px;
+	height: 100%;
+	width: 400px;
+	border: 0px;
+}
+.topbox {
+	background-color: hsl(353, 85%, 33%);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+}
+.pad {
+	padding: 10px;
+	text-align: left;
+}
+.img-pad{
+	height: 100%;
+	width: 100%;
+}
+.liitem {
+	text-align: left;
+    margin: 20px;
+}
+.clicklink {
+	color: hotpink;
+}
+.clicklink:hover{
+	color: pink;
+}
+.empty {
+	margin: 50px;
+}
+.containerbox-timeline{
+	margin: 5em auto;
+	max-width: 34.15em;
+	box-shadow: 1.5px 5px hsla(7, 42%, 39%, 0.1);
+	max-width: 34em;
+    position: relative;
+    color: hsl(353, 85%, 33%);
+	text-align: center;
+	border: 4px solid hsl(353, 85%, 33%);
+	border-radius: 10px;
+	box-shadow: 5px 5px hsla(7, 42%, 39%, 0.1);
+}
+.containerbox-timeline div{
+	padding: 1.5em;
+	border: 1px solid #888;
+	border-radius: 1em;
+}
+.containerbox-timeline p {
+	line-height: 30px;
+	color: #ccc;
+}
+.section-timeline {
+    padding-top: 2em;
+	padding-bottom: 2em;
+}
+.containerbox-timeline:nth-child(odd){
+	padding-left:3em;
+	border-left: 4px solid hsl(353, 85%, 33%);
+	transform: translatex(17em);
+}
+.containerbox-timeline:nth-child(even){
+	padding-right:3em;
+	border-right: 4px solid hsl(353, 85%, 33%);
+	transform: translatex(-17em);
+}
+.form {
+	width: 99%;
+	text-align: center;
+	background-color: hsla(0, 100%, 83%, 0.2);
+	margin: auto;
+	height: 50px;
+	border: 0px;
+	color: white;
+	font-weight: Bold;
+	accent-color: hsl(353, 85%, 33%);
+}
+.formsev {
+	width: 99%;
+	height: 10em;
+	text-align: center;
+	background-color: hsla(0, 100%, 83%, 0.2);
+	border: 0px;
+	resize: none;
+	color: white;
+	font-weight: Bold;
+	overflow: hidden;
+	vertical-align: top;
+	accent-color: hsl(353, 85%, 33%);
+}
+.formsevratext {
+    text-align: center;
+	color: white;
+}
+.submit {
+	width: 50%;
+	height: 40px;
+	border-radius: 25px;
+	text-align: center;
+	background-color: hsl(353, 85%, 33%);
+	border: 0px;
+	color: white;
+	font-weight: Bold;
+	padding: 10px;
+}
+.submit-container{
+	width: 96%;
+	height: 40px;
+	text-align: center;
+	border: 0px;
+	padding: 10px;
+}
+.radio {
+	accent-color: hsl(353, 85%, 33%);
+}
+.country {
+    width: 100%;
+	text-align: center;
+	background-color:  hsl(353, 85%, 33%);
+	margin: auto;
+	height: 50px;
+	border: 0px;
+	color: white;
+	font-weight: Bold;
+	accent-color: hsl(353, 85%, 33%);
+}
+.texth {
+	font-size: 40px;
+	padding: 10px;
+	font-weight: bold;
+    border-bottom: 4px solid white;
+	width: 30%;
+	margin: auto;
+}
+.table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 0px solid black;
+	height: 200px;
+}
+.tablerow {
+	background-color: hsl(0, 40%, 50%);
+	color: white;
+	text-align: left;
+	border: 0px solid black;
+}
+.tablerow1 {
+	background-color: hsl(0, 0%, 94%);
+	text-align: left;
+}
+.back1 {
+	background-image: url("../img/back1.png");
+	background-repeat: no-repeat;
+	background-position: top;
+    background-attachment: fixed;
+ 	background-position: center !important;
+ 	background-size: cover;
+}
+.back2 {
+	background-image: url("../img/back2.png");
+	background-repeat: no-repeat;
+	background-position: top;
+    background-attachment: fixed;
+ 	background-position: center !important;
+ 	background-size: cover;
+}
+.thanktext {
+	color: hotpink;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+	font-size:100px;
+	position: absolute;
+}
+.toptext1 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+}
+/*References */ 
+/* Grant, K. J. (2024). CSS in Depth. Simon and Schuster. */ 
+/* McFarland, D. S. (2012). CSS3: the missing manual. " O'Reilly Media, Inc.". */ 
+/*Powers, D. (2007). Building Site Navigation with the Spry Menu Bar. The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP, 183-206. */ 
+/* how to edit accent - Chin, S., Vos, J., & Weaver, J. (2024). Mastering Visual and CSS Design. In The Definitive Guide to Modern Java Clients with JavaFX (pp. 211-244). Apress, Berkeley, CA. */ 
